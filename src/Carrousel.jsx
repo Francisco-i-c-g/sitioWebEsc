@@ -4,41 +4,39 @@ import img2 from "./img/imagenEducacion2.jpg";
 import img3 from "./img/imagenEducacion3.jpg";
 import { Button } from "bootstrap";
 
-const indicatorsButton={
-  borderRadius:"50%",
-  height:"14px",
-  width:"14px",
-
-};
-
 export default function Carrousel() {
+  const buttonStyle = {
+    borderRadius: "50%",
+    height: "15px",
+    width: "15px",
+  };
+
   return (
     <>
       <div
         className="carousel slide"
         id="carouselSlideOne"
         data-bs-ride="carousel"
-
       >
         <div className="carousel-indicators">
-          <button 
+          <button
             className="active"
             type="button"
             data-bs-slide-to="0"
             data-bs-target="#carouselSlideOne"
-            style={indicatorsButton}
+            style={buttonStyle}
           ></button>
           <button
             type="button"
             data-bs-slide-to="1"
             data-bs-target="#carouselSlideOne"
-            style={indicatorsButton}
+            style={buttonStyle}
           ></button>
           <button
             type="button"
             data-bs-slide-to="2"
             data-bs-target="#carouselSlideOne"
-            style={indicatorsButton}
+            style={buttonStyle}
           ></button>
         </div>
         <div className="carousel-inner">
@@ -64,30 +62,6 @@ export default function Carrousel() {
             ></img>
           </div>
         </div>
-
-        <button
-          className="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselSlideOne"
-          data-bs-slide="prev"
-        >
-          <span
-            className="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
-        </button>
-
-        <button
-          className="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselSlideOne"
-          data-bs-slide="next"
-        >
-          <span
-            className="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
-        </button>
       </div>
     </>
   );
