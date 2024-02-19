@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/sitioWebEsc/static/css/main.016ae6eb.css",
+    "main.js": "/sitioWebEsc/static/js/main.806457e9.js",
+    "static/media/prapaImg.webp": "/sitioWebEsc/static/media/prapaImg.b3d7fd17458933ec7da5.webp",
+    "static/media/imagenEducacion4.jpg": "/sitioWebEsc/static/media/imagenEducacion4.50fe65ca1f21dc07c5b0.jpg",
+    "static/media/imagenEducacion2.jpg": "/sitioWebEsc/static/media/imagenEducacion2.716e442b9830bcb614dc.jpg",
+    "static/media/mujer biblioteca.webp": "/sitioWebEsc/static/media/mujer biblioteca.dbf174c91a7aa1962f24.webp",
+    "static/media/imagenEducacion1.jpg": "/sitioWebEsc/static/media/imagenEducacion1.3837a314e80040f2405c.jpg",
+    "static/media/estudiantesImg.jpg": "/sitioWebEsc/static/media/estudiantesImg.95208becc53076fe19dc.jpg",
+    "static/media/imagenEducacion3.jpg": "/sitioWebEsc/static/media/imagenEducacion3.0222067830a7c0317167.jpg",
+    "index.html": "/sitioWebEsc/index.html",
+    "main.016ae6eb.css.map": "/sitioWebEsc/static/css/main.016ae6eb.css.map",
+    "main.806457e9.js.map": "/sitioWebEsc/static/js/main.806457e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.016ae6eb.css",
+    "static/js/main.806457e9.js"
+  ]
+}
