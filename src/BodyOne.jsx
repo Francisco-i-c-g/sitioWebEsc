@@ -3,6 +3,7 @@ import img1 from "./imgBody/mujer biblioteca.webp";
 import img2 from "./imgBody/imagenEducacion4.jpg";
 import img3 from "./imgBody/estudiantesImg.jpg";
 import img4 from "./imgBody/prapaImg.webp";
+import { Card } from "./BodyTwo";
 
 const originalStyle = {
   width: "650px",
@@ -30,10 +31,21 @@ export default function Body() {
       <div className="row mb-5">
         <VideoPromocional />
       </div>
+      <div className="row mb-5">
+        <Card titulo="INSCRIPCIONES ABIERTAS" texto="Inscríbete antes del 31 de Mayo
+                      y aprovecha la promoción por inscripción anticipada
+                      Infórmate de las promociones por promedio sobresaliente
+                      ¡ÚNETE A LA GRAN FAMILIA PREPA MÉXICO!" />
+        <Card
+          titulo="PLAN DE 3 AÑOS" texto="Turno Matutino de 7:30 a 15:00 hrs.
+                  Inscripción anticipada a partir del mes de Febrero
+                  hasta el último dia de Mayo.
+                  Único requisito, llenar ficha de inscripción.
+                  DOCUMENTOS OFICIALES SE RECIBEN DURANTE
+                  EL MES DE JULIO"
+        />
+      </div>
     </div>
-    
-    
-    
   );
 }
 
@@ -174,14 +186,16 @@ function Imagen4() {
 
 function VideoPromocional() {
   return (
-    <iframe
-      width="600"
-      height="600"
-      src="https://www.youtube.com/embed/in4UjPdKfuA?si=t6UvOH7nNJE5N3T0&vq=hd720"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-    ></iframe>
+    <>
+      <iframe
+        width="600"
+        height="600"
+        src="https://www.youtube.com/embed/in4UjPdKfuA?si=t6UvOH7nNJE5N3T0&vq=hd720"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </>
   );
 }
