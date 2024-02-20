@@ -1,7 +1,7 @@
 export function Card(props) {
   return (
     <>
-    <div className="col-md-6">
+    <div className="col-md-6 mb-3">
     <div className="card bg-light">
       <div className="card-body">
         <h4 className="card-title" style={{textAlign:"center"}}>{props.titulo}</h4>
