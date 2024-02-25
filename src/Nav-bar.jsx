@@ -36,19 +36,19 @@ export default function Navabar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link to="SistemaNacBac" className="nav-link">
                   Sistema Nacional de Bachillerato
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link to="ServicioPage" className="nav-link">
                   Servicio
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link to="ComunidadPage" className="nav-link">
                   Comunidad
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

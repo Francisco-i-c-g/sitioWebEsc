@@ -6,7 +6,10 @@ import * as bootstrap from "bootstrap";
 import "./styles.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navabar from "./Nav-bar";
-import OfertaAcademica from "./OfertaAcademica/ofertaprepa"
+import OfertaAcademica from "./OfertaAcademica/ofertaprepa";
+import SistemaNB from "./SistemaNacional/SistemaNacional";
+import ServicioP from "./Servicio/ServicioPage";
+import ComunidadP from "./Comunidad/ComunidadPage";
 
 import Body, { VideoPromocional } from "./BodyOne";
 
@@ -21,6 +24,9 @@ export default function App1() {
             <Route index element={<App />} />
             <Route path="Infoprepa" element={<InfoPrepa />} />
             <Route path="ofertaPrepa" element={<OfertaAcademica />} />
+            <Route path="SistemaNacBac" element={<SistemaNB/>}/>
+            <Route path="ServicioPage" element={<ServicioP/>}/>
+            <Route path="ComunidadPage" element={<ComunidadP/>}/>
           </Route>
         </Routes>
       </BrowserRouter>
