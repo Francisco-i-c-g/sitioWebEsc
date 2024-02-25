@@ -16,8 +16,13 @@ const CostumStyle = {
   filter: "brightness(30%)",
 };
 
+const intercambiAlumnosText = "Intercambio de alumnos con las mejores escuelas del mundo.";
+const centroEducativoText = "Tenemos las mejores instalaciones, con amplias aulas y equipadas con tecnologia de vanguardia."
+const bibliotecaText = "Bibliotecas con amplio numero de libros."
+const ofertaEducativaText = "Estudia la preparatoria y una carrera tecnica al mismo tiempo."
 //Funcion principal del body
 export default function Body() {
+
   return (
     <div className="container">
       <div className="row mb-3 mt-5">
@@ -117,7 +122,7 @@ function Imagen1() {
         imagenOri,
         img1,
         "imagen1",
-        "OFERTA EDUCATIVA"
+        ofertaEducativaText
       )}
     </>
   );
@@ -134,7 +139,7 @@ function Imagen2() {
   }
 
   return (
-    <>{coluImagen(aplicarEfectos, imagenOri, img2, "imagen2", "BIBLIOTECAS")}</>
+    <>{coluImagen(aplicarEfectos, imagenOri, img2, "imagen2", bibliotecaText)}</>
   );
 }
 
@@ -155,7 +160,7 @@ function Imagen3() {
         imagenOri,
         img3,
         "imagen3",
-        "INTERCAMBIO DE ALUMNOS"
+        intercambiAlumnosText
       )}
     </>
   );
@@ -178,7 +183,7 @@ function Imagen4() {
         imagenOri,
         img4,
         "imagen4",
-        "CENTRO EDUCATIVO"
+        centroEducativoText
       )}
     </>
   );
